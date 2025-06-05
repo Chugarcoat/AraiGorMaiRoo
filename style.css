@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    padding-top: 20%;
+    font-family: sans-serif ;
+}
+
+input[type="number"] {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    margin: 0px;
+}
+
+button {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 174px;
+    margin: -5px;
+}
+
+#bar-container {
+    width: 500px;
+    height: 15px;
+    background-color: #e6e3e3;
+    margin: 20px auto;
+  }
+
+#bar {
+    height: 100%;
+    width: 0%;
+    background-color: #4CAF50;
+    transition: width 0.5s;
+}
